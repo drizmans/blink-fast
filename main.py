@@ -39,7 +39,7 @@ detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 LEFT_EYE_IDX = list(range(42, 48))
 RIGHT_EYE_IDX = list(range(36, 42))
-blink_threshold = 0.2
+blink_threshold = 0.18
 
 # ------------- VIDEO CAPTURE -------------
 cap = cv2.VideoCapture(0)

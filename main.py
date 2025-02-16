@@ -86,7 +86,7 @@ def draw_grid():
     """Redraws the grid and info panel, ensuring the previous selection is cleared."""
     global needs_redraw
     screen.fill(WHITE)
-    
+
     for row in range(GRID_SIZE):
         for col in range(GRID_SIZE):
             num = grid[row][col]
@@ -175,7 +175,7 @@ def blink_detection_thread():
                     changed_x = random.randint(0, GRID_SIZE - 1)
                     changed_y = random.randint(0, GRID_SIZE - 1)
                     grid[changed_x][changed_y] = random.randint(0, MAX_NUM)
-                    
+
                     needs_redraw = True
 
                 elif avg_EAR >= blink_threshold:
@@ -208,7 +208,7 @@ while running:
                     streak = 0
                     score = 0
                     awaiting_guess = False
-                    clicked_feedback = None 
+                    clicked_feedback = None
 
                 needs_redraw = True
 

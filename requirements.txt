@@ -1,0 +1,8 @@
+numpy
+matplotlib
+opencv-python
+dlib
+scipy
+imutils
+pygame
+pillow

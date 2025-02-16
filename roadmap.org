@@ -1,0 +1,2 @@
+If you keep clicking the right answer it keeps rewarding you
+clicking the wrong answer doesn’t highlight in red properly
